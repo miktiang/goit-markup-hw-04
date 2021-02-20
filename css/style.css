@@ -599,6 +599,13 @@ img {
   padding-top: 50px;
 }
 
+.project-list:hover,
+.project-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .our-projects-filters {
   background: var(--back-light-grey);
   color: var(--black-text);
@@ -624,9 +631,9 @@ img {
 
 .our-project-content {
   padding: 20px 24px;
-  border-right: 1px solid rgb(238, 238, 238);
-  border-bottom: 1px solid rgb(238, 238, 238);
-  border-left: 1px solid rgb(238, 238, 238);
+  border-right: 1px solid rgb(238, 238, 238, 1);
+  border-bottom: 1px solid rgb(238, 238, 238, 1);
+  border-left: 1px solid rgb(238, 238, 238, 1);
 }
 
 .our-projects-title {
