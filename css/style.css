@@ -63,6 +63,12 @@ img {
   margin-left: 50px;
 }
 
+/* .site-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
+
 /* Alternative */
 /* .site-nav .site-link {
   margin-right: 50px;
@@ -85,6 +91,8 @@ img {
 /* Contacts link in index.html and portfolio.html*/
 .contact-link {
   display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-link .site-link + .site-link {
@@ -127,6 +135,9 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  justify-content: center;
+  text-align: center;
 }
 
 .link-black:hover,
@@ -135,6 +146,14 @@ img {
 .link-grey:focus {
   color: var(--back-blue);
 }
+
+.icon-envelope {
+  margin-right: 10px;
+
+  /* justify-content: center;
+  text-align: center; */
+}
+
 
 /* Alternative */
 /* .link-grey:hover,
@@ -193,6 +212,19 @@ img {
 
 .advantages .advantages-list + .advantages-list {
   margin-left: 30px;
+}
+
+.advantager-icons {
+  width: 270px;
+  height: 120px;
+
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--back-light-grey);
 }
 
 .advantages-title {
@@ -285,6 +317,13 @@ img {
 
 .our-team-mbr {
   background-color: var(--white-text);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-descriptions {
+  padding: 30px 32px;
 }
 
 .team-members {
@@ -294,7 +333,6 @@ img {
   line-height: 1.18;
   letter-spacing: 0.03em;
 
-  padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -307,7 +345,41 @@ img {
   letter-spacing: 0.03em;
 
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
+}
+
+/* Team icons list*/
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: -10px;
+}
+
+.team-icons {
+  margin-right: 10px;
+}
+
+.team-icons-link {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  cursor: pointer;
+
+  fill: rgba(175, 177, 184, 1);
+}
+
+.team-icons-link:hover,
+.team-icons-link:focus {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
 }
 
 /* Our projects from portfolio.html */
