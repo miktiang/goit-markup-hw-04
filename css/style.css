@@ -490,6 +490,15 @@ img {
   padding: 60px 0;
 }
 
+.footer-adress{
+  display: flex;;
+  align-items: center;
+}
+
+.footer-adress-link {
+  margin-right: 70px;
+}
+
 .logo-white {
   font-family: 'Raleway', sans-serif;
   color: var(--white-text);
@@ -534,3 +543,47 @@ img {
 .link-white:focus {
   color: var(--back-blue);
 } */
+
+/* Join us*/
+.join {
+  display: block;
+}
+
+.title-join {
+  font-weight: 700;
+  color: var(--white-text);
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.join-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-right: -10px;
+}
+
+.join-link {
+  margin-right: 10px;
+}
+
+.join-link-icon {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--white-text);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.join-link-icon:hover,
+.join-link-icon:focus {
+  background-color: rgba(33, 150, 243, 1);
+}
