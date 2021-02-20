@@ -1,12 +1,19 @@
 /* All colors in project */
 :root {
-  --white-text: #ffffff;
-  --black-text: #212121;
-  --grey-text: #757575;
-  --grey-text-op60: rgba(255, 255, 255, 0.6);
-  --back-light-black: #2f303a;
-  --back-light-grey: #f5f4fa;
-  --back-blue: #2196f3;
+  --white-text: rgb(255,255,255,1);
+  --black-text: rgb(33,33,33,1);
+  --grey-text: rgb(117,117,117,1);
+  --grey-text-op60: rgb(255,255,255,0.6);
+
+  --light-grey: rgb(175,177,184,1);
+
+  --back-light-black: rgb(47,48,58,1);
+  --back-light-grey: rgb(245,244,250,1);
+  --back-blue: rgb(33,150,243,1);
+  --back-light-grey-op10: rgb(255,255,255,0.1);
+
+  --border-light-grey: rgb(236, 236, 236, 1);
+  --border-light-grey2: rgb(238, 238, 238, 1);
 }
 
 /* Font-family in body index.html and portfolio.html */
@@ -37,7 +44,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid rgb(236, 236, 236, 1);
+  border-bottom: 1px solid var(--border-light-grey);
 }
 
 /* Container in index.html and portfolio.html*/
@@ -390,13 +397,13 @@ img {
   border-radius: 50%;
   cursor: pointer;
 
-  fill: rgba(175, 177, 184, 1);
+  fill: var(--light-grey);
 }
 
 .team-icons-link:hover,
 .team-icons-link:focus {
-  background-color: rgba(33, 150, 243, 1);
-  fill: rgba(255, 255, 255, 1);
+  background-color: var(--back-blue);
+  fill: var(--white-text);
 }
 
 /* Regular customers */
@@ -406,7 +413,7 @@ img {
 }
 
 .customers-title {
-  color: rgba(33, 33, 33, 1);
+  color: var(--black-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -433,17 +440,17 @@ img {
   width: 170px;
   height: 90px;
 
-  fill: rgba(175, 177, 184, 1);
+  fill: var(--light-grey);
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--light-grey);
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  fill: rgba(33, 150, 243, 1);
-  border: 1px solid rgba(33, 150, 243, 1);
+  fill: var(--back-blue);
+  border: 1px solid var(--back-blue);
 }
 
 /* .customers-link:focus {
@@ -547,13 +554,13 @@ img {
   justify-content: center;
   align-items: center;
   fill: var(--white-text);
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--back-light-grey-op10);
   border-radius: 50%;
 }
 
 .join-link-icon:hover,
 .join-link-icon:focus {
-  background-color: rgba(33, 150, 243, 1);
+  background-color: var(--back-blue);
 }
 
 /* Our projects from portfolio.html */
@@ -631,9 +638,10 @@ img {
 
 .our-project-content {
   padding: 20px 24px;
-  border-right: 1px solid rgb(238, 238, 238, 1);
-  border-bottom: 1px solid rgb(238, 238, 238, 1);
-  border-left: 1px solid rgb(238, 238, 238, 1);
+
+  border-right: 1px solid var(--border-light-grey2);
+  border-bottom: 1px solid var(--border-light-grey2);
+  border-left: 1px solid var(--border-light-grey2);
 }
 
 .our-projects-title {
