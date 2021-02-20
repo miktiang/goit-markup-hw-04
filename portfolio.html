@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="header">
         <div class="container main-link">
             <nav class="main-link">
                 <a href="./index.html" class="logo-black"><span class="logo-blue">Web</span>Studio</a>
@@ -27,16 +27,22 @@
                     </li>
                 </ul>
             </nav>
-            <address class="main-contacts">
+            <div class="main-contacts">
                 <ul class="contact-link">
                     <li class="site-link">
-                        <a href="mailto:info@devstudio.com" class="link-grey">info@devstudio.com</a>
+                        <a href="mailto:info@devstudio.com" class="link-grey">
+                            <svg class="icon-envelope" width="16" height="12">
+                                <use href="./images/icons.svg#envelope"></use>
+                            </svg>info@devstudio.com</a>
                     </li>
                     <li class="site-link">
-                        <a href="tel:+380961111111" class="link-grey">+38 096 111 11 11</a>
+                        <a href="tel:+380961111111" class="link-grey">
+                            <svg class="icon-phone" width="10" height="16">
+                                <use href="./images/icons.svg#phone"></use>
+                            </svg>+38 096 111 11 11</a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </header>
     <main>
@@ -131,7 +137,8 @@
     </main>
     <!-- Footer -->
     <footer class="footer-background">
-        <div class="container">
+        <div class="container footer-adress">
+            <div class="footer-adress-link">
             <a href="./index.html" class="logo-white"><span class="logo-blue">Web</span>Studio</a>
             <address class="footer-link">
                 <ul class="addres">
@@ -146,6 +153,40 @@
                     </li>
                 </ul>
             </address>
+        </div>
+            <div class="join">
+                <h2 class="title-join">присоединяйтесь</h2>
+                <ul class="join-list">
+                    <li class="join-link">
+                        <a class="join-link-icon" href="#">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li  class="join-link">
+                        <a class="join-link-icon" href="#">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-link">
+                        <a class="join-link-icon" href="#">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-link">
+                        <a class="join-link-icon" href="#">
+                            <svg width="20" height="20">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

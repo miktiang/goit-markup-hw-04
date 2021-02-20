@@ -36,6 +36,10 @@ img {
   height: auto;
 }
 
+.header {
+  border-bottom: 1px solid rgb(236, 236, 236, 1);
+}
+
 /* Container in index.html and portfolio.html*/
 .container {
   max-width: 1200px;
@@ -456,7 +460,7 @@ img {
 
 .footer-adress{
   display: flex;;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-adress-link {
@@ -598,11 +602,14 @@ img {
 .our-projects-filters {
   background: var(--back-light-grey);
   color: var(--black-text);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+
   padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .our-projects-filters:hover,
@@ -617,6 +624,9 @@ img {
 
 .our-project-content {
   padding: 20px 24px;
+  border-right: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  border-left: 1px solid rgb(238, 238, 238);
 }
 
 .our-projects-title {
