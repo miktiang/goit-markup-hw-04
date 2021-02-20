@@ -413,7 +413,7 @@ img {
 /* Regular customers */
 .regular-customers {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 113px;
 }
 
 .customers-title {
@@ -450,6 +450,10 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
+
+/* .customers-list .customers-icons {
+  flex-basis: calc(100% / 6 - 30px);
+} */
 
 .customers-link:hover,
 .customers-link:focus {
