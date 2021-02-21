@@ -16,7 +16,7 @@
   --border-light-grey2: rgb(238, 238, 238, 1);
 }
 
-/* Font-family in body index.html and portfolio.html */
+/* Font-family in project */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -49,7 +49,7 @@ img {
 
 /* Container in index.html and portfolio.html*/
 .container {
-  max-width: 1200px;
+  width: 1200px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -450,10 +450,6 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
-
-/* .customers-list .customers-icons {
-  flex-basis: calc(100% / 6 - 30px);
-} */
 
 .customers-link:hover,
 .customers-link:focus {
